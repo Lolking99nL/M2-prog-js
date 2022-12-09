@@ -58,7 +58,15 @@ class App
         g.stroke();
         g.fill();
 
-
+        g.beginPath()
+        g.fillStyle = "black";
+        g.moveTo(25,45);
+        g.lineTo(40,48);
+        g.lineTo(40,55);
+        g.lineTo(25,52)
+        g.closePath();
+        g.stroke();
+        g.fill();
 
         console.log(canvas)
     }
